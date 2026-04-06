@@ -20,9 +20,11 @@ from src.console_portal import ConsolePortal
 
 
 def main():
+    # Create the main database engine and open a connection
     database_engine = DatabaseEngine()
     connection = database_engine.connect()
 
+    # Create the core project modules
     data_dock = DataDock(connection)
     schema_scout = SchemaScout(connection)
     sql_guard = SQLGuard(schema_scout)
@@ -30,7 +32,10 @@ def main():
     query_oracle = QueryOracle(connection, sql_guard, prompt_bridge)
     console_portal = ConsolePortal(data_dock, query_oracle)
 
+    # Start the command-line application
     console_portal.run()
+
+    # Close the database connection when the program ends
     connection.close()
 
 
