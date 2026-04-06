@@ -1,48 +1,46 @@
-# whisperbase
-Natural language interface for SQLite with modular query validation
 # WhisperBase
 
 WhisperBase is a Python project that loads CSV data into SQLite and allows users to query the database using either SQL or natural language.
 
 ## Files
 
-* `main.py`
+* main.py
 
   * Runs the project
 
-* `db_engine.py`
+* db_engine.py
 
   * Connects to the SQLite database
 
-* `data_dock.py`
+* data_dock.py
 
   * Loads CSV files into the database
 
-* `schema_scout.py`
+* schema_scout.py
 
   * Checks database tables, columns, and data types
 
-* `sql_guard.py`
+* sql_guard.py
 
   * Validates SQL queries before they run
 
-* `prompt_bridge.py`
+* prompt_bridge.py
 
   * Converts natural language into SQL
 
-* `query_oracle.py`
+* query_oracle.py
 
   * Handles query execution
 
-* `console_portal.py`
+* console_portal.py
 
   * Handles the command-line interface
 
-* `tests/`
+* tests/
 
   * Contains test files
 
-* `data/`
+* data/
 
   * Contains sample CSV files
 
@@ -58,12 +56,18 @@ WhisperBase is a Python project that loads CSV data into SQLite and allows users
 
 ## How to Run
 
-```bash id="j9g61m"
-python src/main.py
+```bash
+python -m src.main
 ```
 
 ## How to Run Tests
 
-```bash id="0onbr8"
+```bash
 pytest
 ```
+
+## Author
+
+Jorge Armenteros
+Boston University EC530
+
