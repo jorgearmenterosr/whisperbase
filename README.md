@@ -1,6 +1,8 @@
 # WhisperBase
 
 WhisperBase is a Python project that loads CSV data into SQLite and allows users to query the database using either SQL or natural language.
+PROJECT VIDEO LINK:
+https://youtu.be/qUr7I-UxVrg
 
 ## Files
 
