@@ -1,9 +1,8 @@
 """
-WhisperBase
-File: test_sql_guard.py
-
-Purpose:
 Contains unit tests for SQL query validation and database protection logic.
+
+AI was used to help improve test structure and validation coverage.
+All code was reviewed and understood before submission.
 """
 
 import sqlite3
