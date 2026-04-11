@@ -1,14 +1,9 @@
 """
-WhisperBase
-File: schema_scout.py
-
-Purpose:
 Checks existing database tables, columns, and data types so the system
-can understand the current schema and compare it with incoming CSV data.
+can understand the current schema.
 
-AI Usage:
-AI was used to help refine schema inspection and comparison ideas.
-All submitted code was reviewed, tested, and understood before submission.
+AI was used to help improve schema inspection logic.
+All code was reviewed and understood before submission.
 """
 
 class SchemaScout:
