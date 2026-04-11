@@ -1,14 +1,9 @@
 """
-WhisperBase
-File: query_oracle.py
+Receives SQL or natural language requests, validates them, executes
+safe queries, and returns the results.
 
-Purpose:
-Acts as the main query service layer by receiving SQL or natural language
-requests, validating them, executing safe queries, and returning results.
-
-AI Usage:
-AI was used to help refine service structure and module interaction.
-All submitted code was reviewed, tested, and understood before submission.
+AI was used to help improve service structure and module interaction.
+All code was reviewed and understood before submission.
 """
 
 class QueryOracle:
