@@ -1,14 +1,9 @@
 """
-WhisperBase
-File: sql_guard.py
+Validates SQL queries before execution by allowing only safe SELECT
+queries and blocking unsafe operations.
 
-Purpose:
-Validates SQL queries before execution by allowing only safe SELECT queries
-and rejecting unsupported or unsafe database operations.
-
-AI Usage:
-AI was used to help refine SQL validation logic and security ideas.
-All submitted code was reviewed, tested, and understood before submission.
+AI was used to help improve SQL validation and security logic.
+All code was reviewed and understood before submission.
 """
 
 import re
