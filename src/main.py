@@ -1,13 +1,8 @@
 """
-WhisperBase
-File: main.py
+Connects all system modules together and starts the command-line interface.
 
-Purpose:
-Connects all WhisperBase modules together and starts the command-line interface.
-
-AI Usage:
-AI was used to help refine project structure and module organization.
-All submitted code was reviewed, tested, and understood before submission.
+AI was used to help improve project structure and module organization.
+All code was reviewed and understood before submission.
 """
 
 from src.db_engine import DatabaseEngine
