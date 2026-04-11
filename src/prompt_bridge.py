@@ -1,14 +1,9 @@
 """
-WhisperBase
-File: prompt_bridge.py
+Converts natural language questions into SQL queries using the database
+schema and language model responses.
 
-Purpose:
-Converts natural language questions into SQL queries by using database
-schema context and a language model response.
-
-AI Usage:
-AI was used to help refine prompt structure and natural language handling.
-All submitted code was reviewed, tested, and understood before submission.
+AI was used to help improve prompt structure and language handling.
+All code was reviewed and understood before submission.
 """
 
 class PromptBridge:
